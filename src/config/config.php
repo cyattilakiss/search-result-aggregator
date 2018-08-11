@@ -9,6 +9,6 @@ return array(
         'enabled' => true,
     ),
     'bing' => array(
-        'enabled' => false,
+        'enabled' => true,
     ),
 );
