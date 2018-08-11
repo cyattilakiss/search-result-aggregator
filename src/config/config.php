@@ -6,7 +6,7 @@ return array(
         'enabled' => true,
     ),
     'yahoo' => array(
-        'enabled' => false,
+        'enabled' => true,
     ),
     'bing' => array(
         'enabled' => false,
