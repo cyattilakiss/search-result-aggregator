@@ -1,0 +1,19 @@
+{
+  "name": "cyattilakiss/search-result-aggregator",
+  "version": "0.0.1",
+  "description": "A search engine aggregator package to support Google and Yahoo as an assignment",
+  "require": {
+    "symfony/dom-crawler": "^3.4",
+    "symfony/css-selector": "^3.4",
+    "guzzle/guzzle": "^3.9"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "6"
+  },
+  "autoload": {
+    "psr-4": {
+      "cyattilakiss\\SearchResultAggregator\\": "src/",
+      "cyattilakiss\\SearchResultAggregator\\Tests\\": "Tests/"
+    }
+  }
+}
